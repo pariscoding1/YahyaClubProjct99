@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { AppState, User, Post, ClubLocation, Comment, Theme, Idea, IdeaType, Specialization, UserStatus, Notification, Mood, BadgeDefinition, Story, HelpRequest } from './types';
 import { INITIAL_USERS, INITIAL_LOCATIONS, INITIAL_POSTS, INITIAL_IDEAS, BADGE_DEFINITIONS, SOUNDS, INITIAL_STORIES, INITIAL_HELP_REQUESTS } from './constants';
-import PostCard, { SpecIcon } from './components/PostCard';
+import PostCard, { SpecIcon } from './PostCard';
 import AdminDashboard from './components/AdminDashboard';
 import IdeaCard from './components/IdeaCard';
 import PersonalizedDashboard from './components/PersonalizedDashboard';
