@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Aero Progress Interface</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Filled" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="pb" class="pb hidden">
+    <div class="pb-card">
+      
+      <div class="pb-header">
+        <i id="pb-icon" class="material-icons-filled">hourglass_empty</i>
+        <div class="pb-label" id="pb-label">Initiating Task...</div>
+      </div>
+      
+      <div class="pb-track">
+        <div class="pb-fill" id="pb-fill"></div>
+        
+        <div class="pb-info">
+          <div class="pb-time" id="pb-time">0.0s</div>
+          <div class="pb-percent" id="pb-percent">0%</div>
+        </div>
+      </div>
+
+      <div class="pb-hint" id="pb-hint">
+        **Hold**&nbsp;[ESC]&nbsp;to&nbsp;<span>Abort</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
