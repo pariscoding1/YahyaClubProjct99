@@ -11,7 +11,7 @@ import StoryViewer from './components/StoryViewer';
 import IdentityReveal from './components/IdentityReveal';
 import CinematicPreview from './components/CinematicPreview';
 import VirtualStudioTour from './components/VirtualStudioTour';
-import Badge from './components/Badge';
+import Badge from './Badge';
 import CinematicEntrance from './components/CinematicEntrance';
 import CreativeHub from './modules/creative-hub/CreativeHub';
 import { NotificationToast, NotificationCenter } from './components/NotificationSystem';
